@@ -47,8 +47,16 @@
         <module>jdbc</module>
         <module>datasource-demo</module>
         <module>multy-datasource</module>
+        <module>druid-datasource</module>
     </modules>
 
-
+    <build>
+        <plugins>
+            <plugin>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <groupId>org.springframework.boot</groupId>
+            </plugin>
+        </plugins>
+    </build>
 
 </project>
