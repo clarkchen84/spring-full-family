@@ -48,6 +48,7 @@
         <module>datasource-demo</module>
         <module>multy-datasource</module>
         <module>druid-datasource</module>
+        <module>simple-jdbc-template</module>
     </modules>
 
     <build>
