@@ -40,6 +40,16 @@
                 <version>1.4.200</version>
                 <scope>runtime</scope>
             </dependency>
+            <dependency>
+                <groupId>org.joda</groupId>
+                <artifactId>joda-money</artifactId>
+                <version>1.0.1</version>
+            </dependency>
+            <dependency>
+                <groupId>org.jadira.usertype</groupId>
+                <artifactId>usertype.core</artifactId>
+                <version>6.0.1.GA</version>
+            </dependency>
         </dependencies>
     </dependencyManagement>
     <modules>
@@ -48,6 +58,7 @@
         <module>datasource-demo</module>
         <module>multy-datasource</module>
         <module>druid-datasource</module>
+        <module>coffee-bucks</module>
     </modules>
 
     <build>
